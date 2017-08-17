@@ -1,0 +1,18 @@
+Hakeem Jones
+DPA 6001
+4/21
+
+Asg09:
+
+Dr. D,
+
+This program reads in a list of 2d points, stores them in a list of vertexs, then stores the vertexs as faces, and prints this all using glVertex3f.  
+
+This program also can rotate the object and move the camera. 
+
+This week we added flat shading by finding the normals of each face and displaying with glnormal3f().  It is important to remember that the vin vector is actually +1 in relation to the vertexes in the vertex_t vector .
+
+We also added 3 lights to our object. 
+
+
+Hakeem Jones

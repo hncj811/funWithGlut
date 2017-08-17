@@ -1,0 +1,171 @@
+#include <ostream>
+#include <fstream>
+#include <iostream>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <cmath>
+#include <cassert>
+#include <unistd.h>
+#include <vector>
+
+#ifdef __APPLE__
+#include <OpenGL/gl.h>
+#include <OpenGL/glext.h>
+#include <GLUT/glut.h>
+#else
+#include <GL/gl.h>
+#include <GL/glut.h>
+#include <GL/glext.h>
+#endif
+
+#include "point.h"
+
+//global variables
+std::vector<point_t*>	the_points;
+
+// forward declarations of functions
+int	main(int argc, char *argv[]);
+
+void	keyboard(unsigned char key, int x, int y);
+void	display();
+void	resize(int w, int h);
+void	idle();
+void	timer(int);
+void	initializeGL();
+
+
+int main(int argc, char *argv[])
+{
+	point_t* pointp;  
+
+// set up GLUT
+  glutInit(&argc, argv);
+  glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
+  glutInitWindowSize(640, 480);
+  glutCreateWindow("OpenGL2.0 demo");
+
+  glutKeyboardFunc(keyboard);
+  glutDisplayFunc(display);
+  glutReshapeFunc(resize);
+//glutIdleFunc(idle);
+  //glutIdleFunc(idle);
+  //glutTimerFunc(1000,timer,1000);
+
+  // set up GL
+  initializeGL();
+  
+  while(!std::cin.eof()){
+    std::cin>> (pointp= new point_t());
+    if(std::cin.good())
+      the_points.push_back(pointp);
+  }
+  // and all the rest happens in the display function...
+  glutMainLoop();
+
+  return 0;
+}
+/*void timer(int dt)
+{
+  glutTimerFunc(dt, timer, dt);
+}*/
+void resize(int w, int h)
+{
+  glViewport(0,0,w,h);
+
+  glMatrixMode(GL_PROJECTION);
+  glLoadIdentity();
+  gluOrtho2D(0.0,w,0.0,h);
+
+  glMatrixMode(GL_MODELVIEW);
+  glLoadIdentity();
+}
+
+void keyboard(unsigned char key, int x, int y)
+{
+	int modifiers = glutGetModifiers();
+
+  if(modifiers & GLUT_ACTIVE_SHIFT)
+    std::cerr << "SHIFT" << std::endl;
+
+  if(modifiers & GLUT_ACTIVE_CTRL)
+    std::cerr << "CTRL" << std::endl;
+
+  if(modifiers & GLUT_ACTIVE_ALT)
+    std::cerr << "ALT" << std::endl;
+
+  switch(key) {
+    case 'q':
+    case 'Q':
+    case 27:
+      // clean up
+      exit(0);
+      break;
+  }
+}
+
+void initializeGL()
+{
+  std::cerr << "GL: ";
+  std::cerr << glGetString(GL_VERSION);
+  std::cerr << " ";
+  std::cerr << glGetString(GL_VENDOR);
+  std::cerr << std::endl;
+
+  // specify clear color; (0.3,0.4,0.6,1.0) is a nice "slate blue"
+  glClearColor( 1.0, 0.0, 0.0, 0.0 );
+
+  glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+  glEnable(GL_BLEND);
+}
+
+void display() 
+{
+	int			ww = glutGet(GLUT_WINDOW_WIDTH);
+	int			wh = glutGet(GLUT_WINDOW_HEIGHT);
+//	int			sw = glutGet(GLUT_SCREEN_WIDTH);
+//	int			sh = glutGet(GLUT_SCREEN_HEIGHT);
+
+  // window width x height is window
+//std::cerr << "ww = " << ww << ", wh = " << wh << std::endl;
+  // screen width x height is entire screen
+//std::cerr << "sw = " << sw << ", sh = " << sh << std::endl;
+
+  glMatrixMode(GL_PROJECTION);
+  glLoadIdentity();
+  gluOrtho2D(0,ww,0,wh);
+
+  glMatrixMode(GL_MODELVIEW);
+  glLoadIdentity();
+
+  glDrawBuffer(GL_BACK);
+  glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+  glBegin(GL_LINE_LOOP);
+  for(int i =0; i< (int) the_points.size(); i++){
+    glVertex2f((*the_points[i])[0], (*the_points[i])[1]);
+  }
+  glEnd();
+
+  glutSwapBuffers();
+  glFlush();
+}
+
+void idle()
+{
+  std::cerr << "in idle()" << std::endl;
+
+  // force display(), so that the object keeps moving
+  glutPostRedisplay();
+}
+
+void timer(int dt)
+{
+  std::cerr << "in timer()" << std::endl;
+
+  // force display(), so that the object keeps moving
+  glutPostRedisplay();
+
+  // sleep for dt ms (simulating sampling rate)
+  glutTimerFunc(dt,timer,dt);
+}

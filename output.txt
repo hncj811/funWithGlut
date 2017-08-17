@@ -1,0 +1,500 @@
+   28  python pygame_sprites.py 
+   29  python pygame_sprites.py 
+   30  python pygame_sprites.py 
+   31  python pygame_sprites.py 
+   32  python pygame_sprites.py 
+   33  ls
+   34  cd cs101
+   35  ls
+   36  cd lab9
+   37  ls
+   38  gedit mode.c&
+   39  gedit john.c&
+   40  gcc john.c
+   41  ./a.out
+   42  gcc john.c
+   43  ./a.out
+   44  cd .. 
+   45  ls
+   46  mv seang.c lab6
+   47  mv lab5.c lab5
+   48  gedit jglen.c
+   49  ls
+   50  gedit tictactoe.c~ 
+   51  cd lab10
+   52  ls
+   53  gedit tictactoe.c 
+   54  gedit jkai.c
+   55  gedit jkai.c
+   56  gcc jkai.c
+   57  gedit jkai.c
+   58  gcc jkai.c
+   59  ./a.out
+   60  ./a.out
+   61  gedit jkai.c
+   62  gcc jkai.c
+   63  gedit jkai.c
+   64  gcc jkai.c
+   65  gedit jkai.c&
+   66  gcc jkai.c
+   67  ./a.out
+   68  ./a.out
+   69  cd DPA6000/excersises/
+   70  ls
+   71  cd spritesLab/
+   72  ls
+   73  gedit pygame_sprites.py
+   74  ls
+   75  cd Dean/
+   76  ls
+   77  mkdir hw3
+   78  cd hw3
+   79  gedit part1.ccp&
+   80  gcc part1.cpp -O3
+   81  gcc part1.cpp -O3
+   82  cp /group/course/cpsc212/f14/hw3/wires.txt .
+   83  gcc part1.cpp -O3
+   84  gcc part1.cpp
+   85  ls
+   86  g++ part1.cpp
+   87  g++ part1.cpp -O3
+   88  ./a.out
+   89  cd Dean/hw3
+   90  ls
+   91  cd hw3_results/
+   92  less ddurham.out
+   93  cd Dean/hw3/hw3_results/
+   94  cd .. 
+   95  ls
+   96  cd hakeemj/
+   97  ls 
+   98  ls -a
+   99  cd .mozilla/
+  100  ls
+  101  cd ..
+  102  ls
+  103  cd ..
+  104  ls
+  105  cd root
+  106  cd bin
+  107  ls
+  108  cd bash
+  109  cd .. 
+  110  ls
+  111  cd usr
+  112  ls
+  113  cd Dean/hw3
+  114  ls
+  115  gedit part1.ccp&
+  116  gedit part1.cpp&
+  117  g++ part1.cpp -O3
+  118  ./a.out
+  119  cd Dean/hw3
+  120  gedit part1.cpp
+  121  g++ part1.cpp -O3
+  122  ./a.out
+  123  cd DPA6000/excersises/
+  124  ls
+  125  mkdir dictLab
+  126  cd dictLab/
+  127  gedit mymodule1.py
+  128  python mymodule1.py 
+  129  gedit mymodule1.py&
+  130  python mymodule1.py 
+  131  gedit mymodule2.py&
+  132  gedit namespace_test.py&
+  133  python namespace_test.py 
+  134  python namespace_test.py 
+  135  python namespace_test.py 
+  136  python namespace_test.py 
+  137  python namespace_test.py 
+  138  python namespace_test.py 
+  139  python namespace_test.py 
+  140  python namespace_test.py 
+  141  python namespace_test.py 
+  142  python namespace_test.py 
+  143  gedit
+  144  python
+  145  ls -a
+  146  where python
+  147  find python
+  148  pwd
+  149  cd ../..
+  150  ls
+  151  cd cs101
+  152  ls
+  153  mkdir lab12
+  154  gedit fib.c
+  155  gcc fib.c
+  156  ./a.out
+  157  cd DPA6000/excersises/
+  158  ls
+  159  cd dictLab/
+  160  ls
+  161  gedit my module1.pyc
+  162  gedit &
+  163  gedit letters.py&
+  164  python letters.py
+  165  python letters.py
+  166  python letters.py
+  167  python letters.py
+  168  cd .mozilla/
+  169  ls -la
+  170  cd firefox/
+  171  ls -la
+  172  less profiles.ini 
+  173  cd en67r47h.default/
+  174  ls -la
+  175  ls
+  176  cd 
+  177  ls
+  178  cd .snapshot/
+  179  ls
+  180  cd weekly.2014-11-23_0015/
+  181  ls
+  182  ls -la
+  183  cd
+  184  cd .mozilla/firefox/
+  185  ls -la
+  186  cd en67r47h.default/
+  187  ls -la
+  188  cd 
+  189  cd .snapshot/weekly.2014-11-23_0015/.mozilla/
+  190  ls -la
+  191  cd firefox/
+  192  ls -la
+  193  cp -r en67r47h.default/ ~/.mozilla/firefox/
+  194  man cp
+  195  cp -rf en67r47h.default/ ~/.mozilla/firefox/
+  196  man cp
+  197  "cp" -rf en67r47h.default/ ~/.mozilla/firefox/
+  198  cd ../
+  199  ls -la
+  200  cd ../../
+  201  cd weekly.2014-11-09_0015/
+  202  ls -la
+  203  "cp" -rf en67r47h.default/ ~/.mozilla/firefox/
+  204  cd .mozilla/
+  205  ls -la
+  206  cd firefox/
+  207  ls
+  208  "cp" -rf en67r47h.default/ ~/.mozilla/firefox/
+  209  "cp" -rf en67r47h.default/ ~/.mozilla/firefox/
+  210  cd 
+  211  cd .cache/
+  212  ls -la
+  213  cd mozilla/
+  214  ls -la
+  215  cd firefox/
+  216  ls -la
+  217  cd en67r47h.default/
+  218  ls -la
+  219  less directoryLinks.json 
+  220  cd 
+  221  cd .snapshot/weekly.2014-11-09_0015/.cache/
+  222  ls
+  223  cd mozilla/
+  224  ls
+  225  cd firefox/
+  226  ls
+  227  cd en67r47h.default/
+  228  ls
+  229  less directoryLinks.json 
+  230  ls -la
+  231  cd
+  232  cd .mozilla/firefox/en67r47h.default/
+  233  ls -la
+  234  sqlite3 places.sqlite
+  235  mv places.sqlite.corrupt no_places
+  236  ls -la
+  237  ps -ef |grep firefox
+  238  ls -la
+  239  rm places.sqlite 
+  240  rm places.sqlite-*
+  241  mv places.sqlite.corrupt places.sqlite
+  242  rm no_places 
+  243  python
+  244  python
+  245  cd cs101
+  246  ls
+  247  mkdir lab13
+  248  gedit 13.c&
+  249  gcc 13.c
+  250  a.out
+  251  ./a.out
+  252  ./a.out
+  253  ls
+  254  mv 13.c lab13
+  255  cd lab13
+  256  ls
+  257  ./a.out
+  258  gcc 13.c
+  259  ./a.out
+  260  gcc 13.c
+  261  ./a.out
+  262  cd DPA6000/excersises/
+  263  ls
+  264  ls
+  265  ls -a
+  266  cd .mozilla/
+  267  ls
+  268  cd firefox/
+  269  ls
+  270  cd en67r47h.default/
+  271  ls
+  272  cd lock
+  273  rm lock
+  274  cd ~
+  275  cd DPA6000/excersises/
+  276  clear
+  277  ls
+  278  mkdir proj3 
+  279  mv *.py proj2 
+  280  ls
+  281  rm *.py~
+  282  cd proj3
+  283  gedit wordcount.py&
+  284  python wordcount.py 
+  285  gedit MPgrail.txt&
+  286  python wordcount.py 
+  287  python wordcount.py 
+  288  python wordcount.py 
+  289  python wordcount.py 
+  290  python wordcount.py 
+  291  python wordcount.py 
+  292  python wordcount.py 
+  293  python wordcount.py 
+  294  python wordcount.py 
+  295  python wordcount.py 
+  296  python wordcount.py 
+  297  python wordcount.py 
+  298  python wordcount.py 
+  299  python wordcount2.py 
+  300  python wordcount2.py 
+  301  python wordcount2.py 
+  302  python wordcount2.py 
+  303  python wordcount2.py 
+  304  python wordcount2.py 
+  305  python wordcount2.py 
+  306  python wordcount2.py 
+  307  python wordcount2.py 
+  308  python wordcount2.py 
+  309  python wordcount2.py 
+  310  python wordcount2.py 
+  311  python wordcount2.py 
+  312  python wordcount2.py 
+  313  python wordcount2.py 
+  314  python wordcount2.py 
+  315  python wordcount2.py 
+  316  python wordcount2.py 
+  317  python wordcount2.py 
+  318  python wordcount2.py 
+  319  python wordcount2.py 
+  320  hg clone /spring2015/cpsc1111-002
+  321  hg clone /Spring2015/CPSC1111-002
+  322  hg clone Courses/Spring2015/CPSC1111-002
+  323  hg clone Courses/Spring2015/CPSC1111-002(Lab)
+  324  hg clone Courses/Spring 2015/CPSC 1111-002
+  325  ls
+  326  hg clone /Courses/Spring 2015/CPSC 1111-002
+  327  mkdir cpsc1111
+  328  cd cpsc1111/
+  329  pwd
+  330  mkdir lab01
+  331  cd lab01
+  332  gedit lab01prog.c &
+  333  gcc -Wall lab01prog.c
+  334  ./a.out
+  335  pwd
+  336  mkdir 101
+  337  ls
+  338  cd 101
+  339  mkdir lab1
+  340  mkdir temp
+  341  cd temp
+  342  ls
+  343  pico test.txt
+  344  rm test.txt
+  345  ls
+  346  cd ..
+  347  ls
+  348  rmdir temp
+  349  ls
+  350  cd lab1
+  351  ls
+  352  gcc -Wall lab1.c
+  353  gcc -Wall lab1.c
+  354  gcc -Wall lab1.c
+  355  ./a.out
+  356  hg /Courses/Spring2015/CPSC1101-004(lab)/
+  357  hg /Courses/Spring2015/CPSC1101-004/
+  358  hg /Spring 2015/CPSC1101-004/
+  359  hg clone /Spring 2015/CPSC1101-004/
+  360  hg clone /Spring2015/CPSC1101-004/
+  361  hg clone Courses/Spring2015/CPSC1101-004/
+  362  hg clone Courses/Spring2015/CPSC1101-004(Lab)/
+  363  hg clone Courses/Spring2015/CPSC1101-002(Lab)/
+  364  hg clone Courses/Spring2015/CPSC1101-002/
+  365  hg clone /Courses/Spring2015/CPSC1101-002/
+  366  hg clone /courses/spring2015/CPSC1101-002/
+  367  ls
+  368  mkdir DPA2
+  369  cd DPA2
+  370  mkdir Assign1
+  371  cd Assign1/
+  372  pico data.h
+  373  vi data.h
+  374  pico data.h
+  375  pico data.cpp
+  376  pico main.cpp
+  377  pico data.cpp
+  378  pico Makefile
+  379  make
+  380  pico data.cpp
+  381  make
+  382  pico data.cpp
+  383  make
+  384  pico Makefile 
+  385  cd DPA2
+  386  ls
+  387  cd Asg1/
+  388  ls
+  389  pico main.cpp
+  390  pico point,h
+  391  ls
+  392  pico point.h
+  393  ls 
+  394  cd DPA2
+  395  ls
+  396  cd Assign1/
+  397  ls
+  398  make
+  399  pico Makefile 
+  400  make
+  401  pico Makefile 
+  402  pico data.cpp
+  403  firefox &
+  404  cd ..
+  405  mkdir Asg1
+  406  cd Asg1/
+  407  pico Makefile
+  408  pico main.cpp
+  409  pico main.cpp
+  410  pico point.h
+  411  pico point.cpp
+  412  pico point.h
+  413  pico point.cpp
+  414  cd DPA2/Asg1/
+  415  pico main.cpp
+  416  cd ..
+  417  ls
+  418  cd Assign1/
+  419  ls
+  420  make
+  421  gedit data.cpp&
+  422  make
+  423  make
+  424  make
+  425  pico Makefile 
+  426  make
+  427  make clean
+  428  rm *.o
+  429  make
+  430  data
+  431  ./data
+  432  cd DPA2/Asg1
+  433  pico point.h
+  434  gedit point.h&
+  435  ls
+  436  cd cs101
+  437  ls
+  438  cd .. 
+  439  cd 101
+  440  ls
+  441  cd lab1
+  442  ls
+  443  cd ~
+  444  cd cpsc1111/
+  445  ls
+  446  cd DPA2
+  447  ls
+  448  cd Asg1
+  449  ls
+  450  make
+  451  pico point.h
+  452  cd ..
+  453  cd Assign1/
+  454  make
+  455  ./main
+  456  ./data
+  457  pico data.c
+  458  ls
+  459  pico data.cpp
+  460  pico main.cpp
+  461  firefox
+  462  cd DPA2/Asg1
+  463  vim point.h
+  464  ls
+  465  vim main.cpp
+  466  cd DPA2/Asg1
+  467  vim point.h
+  468  make
+  469  make
+  470  make
+  471  make
+  472  make
+  473  make
+  474  make
+  475  make
+  476  make
+  477  make
+  478  make
+  479  make
+  480  make
+  481  make clean make
+  482  makeclean make
+  483  make clean
+  484  clear
+  485  make
+  486  clear 
+  487  make
+  488  make
+  489  main
+  490  ./main
+  491  cd DPA2
+  492  cd Asg1
+  493  ls
+  494  gedit Makefile&
+  495  make
+  496  vim point.cpp &
+  497  vim point.cpp 
+  498  vin point.h
+  499  vim point.h
+  500  vim
+  501  cd DPA2/Asg1/
+  502  g++ demo.cpp
+  503  g++ demo.cpp
+  504  g++ demo.cpp
+  505  ./a.out
+  506  g++ demo.cpp
+  507  g++ demo.cpp
+  508  ./a.out
+  509  g++ demo.cpp
+  510  ./a.out
+  511  g++ demo.cpp
+  512  ./a.out
+  513  g++ demo.cpp
+  514  g++ demo.cpp
+  515  ./a.out
+  516  g++ demo.cpp
+  517  ./a.out
+  518  g++ demo.cpp
+  519  ./a.out
+  520  g++ demo.cpp
+  521  g++ demo.cpp
+  522  make
+  523  ls
+  524  gedit pointData.txt
+  525  ./main <pointData.txt 
+  526  gedit point.o
+  527  history > output.txt
